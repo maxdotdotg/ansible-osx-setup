@@ -1,6 +1,6 @@
 # MacOS Setup with Ansible
 
-This repository contains an Ansible configuration for setting up a Mac from scratch. It's primary purpose is setting up a new Mac from scratch, but I endeavor to also use it for adding new software as I go so that it remains up to date. At the moment it's being used for setting up M1 based Macs running MacOS Monterey.
+This repository contains an Ansible configuration for setting up a Mac from scratch. It's primary purpose is setting up a new Mac from scratch.
 
 ## Getting Started
 
@@ -22,10 +22,7 @@ The easiest way to understand what's installed is to read the contents of `ansib
 
 - ZSH + Oh My Zsh as the primary shell
 - Homebrew for package management
-- ASDF for version management (along with plugins and default versions for ruby, python, javascript, elixir and erlang)
-- Virtualbox, Vagrant and Docker
-- VSCode + default plugins and configuration
-- A selection of Android SDK's
+- Docker
 - Lots of other tools and utilities
 
 ## Customising
