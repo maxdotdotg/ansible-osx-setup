@@ -85,3 +85,12 @@
         owner: "{{ lookup('env', 'USER') }}"
         force: yes
 
+    - name: Copy tmux config
+      get_url:
+        url: https://raw.githubusercontent.com/maxdotdotg/mynewworkstation/master/.tmux.conf
+        dest: ~/.tmux.conf
+
+    - name: Copy vim config
+      get_url:
+        url: https://raw.githubusercontent.com/maxdotdotg/mynewworkstation/master/.vimrc
+        dest: ~/.config/nvim/init.vim
